@@ -32,7 +32,7 @@ The purpose of this library is to allow multiple LEDs to flash at different rate
       #include <LedFlasher.h>
 
       // set up some LEDs
-      // LedFlasher floodLight (8, 200, 300);
+      // LedFlasher floodLight (8, 200, 300); // pin 8 is sometimes used for a buzzer
       LedFlasher shuttleBayDoors (9, 300, 600);
       LedFlasher impuleEngine (10, 900, 100);
       LedFlasher strobe (11, 500, 1000);
