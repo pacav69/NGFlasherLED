@@ -1,12 +1,6 @@
-# How to do multiple things at once ... like cook bacon and eggs
-
-
-# NGLedFlasher
-
-[Reference: Website LED blink ](http://www.gammon.com.au/blink)
-
-
-Author: Nick Gammon
+/*
+// Author: Nick Gammon
+// Date: 23 December 2012
 
 Usage:
 
@@ -16,14 +10,15 @@ Usage:
   
   LedFlasher laserTurrent (5, 1000, 2000, true);   // set parameters. pin 5, off for 1000 mS, on for 2000 mS, initially active
   
-	laserTurrent.begin ();    // initialize
-	laserTurrent.on ();       // turn on
-	laserTurrent.off ();      // turn off
-	bool isOn = laserTurrent.isOn ();  // is it currently on?
-	laserTurrent.update ();   // call in loop function
-        
+  laserTurrent.begin ();    // initialize
+  laserTurrent.on ();       // turn on
+  laserTurrent.off ();      // turn off
+  bool isOn = laserTurrent.isOn ();  // is it currently on?
   
- ## EXAMPLE CODE
+  laserTurrent.update ();   // call in loop function
+  
+  
+    EXAMPLE CODE
     
     
       #include <LedFlasher.h>
