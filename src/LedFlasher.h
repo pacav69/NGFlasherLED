@@ -1,3 +1,6 @@
+//
+// Arduino library for Flashing more then one LED at a time.
+
 #pragma once
   
 #include <Arduino.h>

@@ -2,6 +2,8 @@
 // Author: Nick Gammon
 // Date: 23 December 2012
 
+Arduino library for Flashing more then one LED at a time.
+
 Usage:
 
   LedFlasher ledName (pin, offtime, ontime, initiallyactive);   // set parameters
